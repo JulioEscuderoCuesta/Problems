@@ -14,7 +14,7 @@ var promiseAll = function(functions) {
                 if (completed === functions.length)
                     resolve(results);
             }).catch(err => reject(err));
-        });
+        }); 
     })
 }
 
